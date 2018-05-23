@@ -1,0 +1,32 @@
+{
+	"name": "elasticsearch-detectlang",
+	"version": "0.0.0",
+	"description": "Elasticsearch js plugin for langdetect",
+	"license": "MIT",
+	"repository": "gradeup/elasticsearch-detectlang",
+	"author": {
+		"name": "Nikhil Srivastava",
+		"email": "niksrc@gmail.com",
+		"url": "https://niksrc.cc"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"elasticsearch",
+		"language",
+		"detect",
+		"elasticsearch plugin"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
